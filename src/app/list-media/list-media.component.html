@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let image of images">
+    <img [alt]="image.title" [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + image.filename">
+  </li>
+</ul>
